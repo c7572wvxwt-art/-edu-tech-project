@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Explore The Arab World</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Main Page -->
+<div id="main-page">
+  <h1 id="title"></h1>
+  <div class="circle" id="country-circle">
+    <div class="center-text">Discover</div>
+  </div>
+  <button id="main-ask-btn">Ask About Civilizations</button>
+</div>
+
+<!-- Country Page -->
+<div id="country-page" class="hidden">
+  <h2 id="country-name"></h2>
+  <p id="country-text"></p>
+  <button id="translate-btn">Translate</button>
+  <button id="back-btn">Back</button>
+</div>
+
+<!-- Ask Page -->
+<div id="ask-page" class="hidden">
+  <h2>اسأل عن الحضارات</h2>
+  <input type="text" id="question-input" placeholder="اكتب سؤالك هنا..." />
+  <button id="search-btn">بحث</button>
+  <p id="answer-text"></p>
+  <button id="ask-back-btn">Back</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
